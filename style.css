@@ -67,7 +67,7 @@ h1 {
     justify-content: center;
 }
 
-.div p button {
+.div>p>button {
     margin-left: 10px;
     padding: 8px 16px;
     font-size: 14px;
@@ -79,18 +79,18 @@ h1 {
     color: #fff;
 }
 
-.div p button.edit {
+.div>p>button.edit {
     background-color: #0a0a0a;
     color: #fff;
 }
 
-.div p button.delete {
+.div>p >button.delete {
     background-color: #dc3545;
     color: #fff;
 }
 
-.div p button.edit:hover,
-.div p button.delete:hover {
+.div>p>button.edit:hover,
+.div>p>button.delete:hover {
     opacity: 0.8;
 }
 
