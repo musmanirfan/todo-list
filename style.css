@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin-top: 10px !important;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(to top, rgb(89, 0, 255), rgb(255, 51, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.text {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.add {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover {
+    background-color: #0056b3;
+}
+
+.div {
+    margin-top: 20px;
+}
+
+.div p {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.div p button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.div p button.edit {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+.div p button.delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.div p button.edit:hover,
+.div p button.delete:hover {
+    opacity: 0.8;
+}
+
+.input2 {
+    padding: 6px;
+    border-radius: 5px;
+}
